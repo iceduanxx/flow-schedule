@@ -1,5 +1,6 @@
 package com.flow.web.service;
 
+import com.flow.web.dal.entity.Job;
 import org.springframework.stereotype.Service;
 
 /**
@@ -8,4 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class JobStoreManager {
 
+    public Job queryJobByJobId(long jobId) {
+        return null;
+    }
 }
